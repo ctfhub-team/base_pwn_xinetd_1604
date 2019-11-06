@@ -1,9 +1,9 @@
 FROM ubuntu:16.04
 
 LABEL Organization="CTFTraining" Author="Virink <virink@outlook.com>"
-MAINTAINER Virink@CTFTraining <virink@outlook.com>
 
 COPY _files /tmp
+
 RUN sed -i 's/archive.ubuntu.com/mirrors.tuna.tsinghua.edu.cn/' /etc/apt/sources.list && \
     sed -i 's/# deb-src/deb-src/' /etc/apt/sources.list && \
     sed -i '/security/d' /etc/apt/sources.list && \
