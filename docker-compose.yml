@@ -4,4 +4,4 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: base_pwn_xinetd_1604
+    image: ctfhub/base_pwn_xinetd_1604
