@@ -1,6 +1,6 @@
 name: base_pwn_xinetd_1604
-title: 基础镜像 PWN Xinetd
-desc: 基础镜像 PWN Xinetd
+title: 基础镜像 PWN Xinetd - ubuntu 1604
+desc: 基础镜像 PWN Xinetd - ubuntu 1604
 tags:
   - pwn
   - xinetd
