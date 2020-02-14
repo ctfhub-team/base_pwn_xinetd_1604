@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-LABEL Organization="CTFTraining" Author="Virink <virink@outlook.com>"
+LABEL Organization="CTFHUB" Author="Virink <virink@outlook.com>"
 
 COPY _files /tmp
 
